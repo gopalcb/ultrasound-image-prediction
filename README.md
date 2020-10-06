@@ -66,7 +66,7 @@ pd_dataset.head(10)
 corr_matrix = pd_dataset.corr()
 plt.figure(figsize=(9, 8))
 sns.heatmap(data = corr_matrix,cmap='coolwarm', annot=True, linewidths=0.2)
-```
+``` 
 
 ![](images/cd2.png)
 
