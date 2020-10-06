@@ -134,7 +134,6 @@ plt.show()
 ```
 
 ![](images/cd3.png)
-![](images/cd4.png)
 
 ### Generated Predicted Probability for Test Data:
 
