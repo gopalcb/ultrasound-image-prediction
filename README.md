@@ -19,7 +19,7 @@ import math
 import torch
 import torchvision
 import torchvision.transforms as transforms
-import torch.nn as nn
+import torch.nn as nn 
 import os
 from os import listdir
 from os.path import isfile, join
