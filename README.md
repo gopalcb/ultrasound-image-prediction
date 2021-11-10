@@ -1,4 +1,4 @@
-## Classifier: Distinguishing Catheters from their Echoes:
+## Classifier: Distinguishing Catheters from their Echoes: 
 
 ### Language and Libraries:
 
