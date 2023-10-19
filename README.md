@@ -5,8 +5,7 @@
 <hr>
 
 ### Project Structure:
-
-<img height="270" width="270" src="images/struct_.PNG" />
+![png](images/struct_.png)
 
 ### Import Libraries:
 
@@ -29,7 +28,7 @@ import cv2
 
 #### Feature: Compute spectral rotation angle given r, c
 
-<img height="400" width="400" src="images/f1.PNG" />
+![png](images/f1.png)
 
 
 ```python
@@ -44,8 +43,7 @@ def spectral_rotation_angle(r, c):
 
 #### Feature: Computing spectral deviation angle
 
-<img height="400" width="400" src="images/f3.PNG" />
-
+![png](images/f3.png)
 
 ```python
 # Computing spectral deviation angle
@@ -92,9 +90,7 @@ def compute_theta(p1, p2, p3):
 ```
 
 #### Feature: Compute sector index
-
-<img height="400" width="400" src="images/f2.PNG" />
-
+![png](images/f2.png)
 
 ```python
 # Compute sector index
@@ -596,7 +592,7 @@ status = bulk_write(test_files_title, nd_predict)
 
 ### Predicted output sample
 
-<img height="400" width="400" src="images/out.PNG" />
+![png](images/out.png)
 
 Ref. 
 
