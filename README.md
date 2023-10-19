@@ -297,8 +297,7 @@ sns.heatmap(data = corr_matrix,cmap='coolwarm', annot=True, linewidths=0.2)
 
 
 
-    
-![png](images/output_20_1.png)
+<img src="./images/output_20_1.png" height="350">
     
 
 
@@ -430,12 +429,7 @@ from results_and_analysis.results_visualization import *
 
 visualize_training_loss_accuracy(train_loss, train_accuracy)
 ```
-
-
-    
-![png](images/output_32_0.png)
-    
-
+<img src="./images/output_32_0.png" height="500">
 
 ### Initialize UNET output before loading as Test data:
 
@@ -553,12 +547,8 @@ from results_and_analysis.results_comparison import *
 pfcnn_confidence_vs_unet_confidence_plotting(pred_accuracy_dict, unet_prediction_accuracies)
 ```
 
-
+<img src="./images/output_46_0.png" height="370">
     
-![png](images/output_46_0.png)
-    
-
-
 ### Combining Output of two Classifier:
 
 
@@ -591,8 +581,7 @@ status = bulk_write(test_files_title, nd_predict)
 ```
 
 ### Predicted output sample
-
-![png](images/out.png)
+<img src="./images/out.png" height="370">
 
 Ref. 
 
