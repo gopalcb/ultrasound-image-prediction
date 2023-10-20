@@ -8,7 +8,7 @@
 
 <img src="./images/struct_.png" height="570">
 
-The project goal is: predicting catheters and echos in ultrasound image and masking them with appropriete labels.
+The project goal is: predicting catheters (C) and echos (E) in ultrasound image and masking them with appropriete labels.
 
 The diagram bellow shows an initial input and the final prediction and masking.
 
