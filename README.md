@@ -1,6 +1,6 @@
 ## Implementation of Thesis Project:
 
-## Image Detection and Segmentation- Distinguishing Catheters from their Echoes in Medical Ultrasound images
+## Image RoI Prediction and Segmentation- Distinguishing Catheters from their Echoes in Medical Ultrasound images
 
 <hr>
 
