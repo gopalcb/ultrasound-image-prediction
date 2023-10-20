@@ -10,9 +10,9 @@
 
 The project goal is: predicting catheters (C) and echos (E) in ultrasound image and masking them with appropriete labels.
 
-The diagram bellow shows an initial input and the final prediction and masking.
+In the output image bellow, the comparatively bright regions are either catheters or echos.
 
-<img src="./images/task.png" height="370">
+<img src="./images/out.png" height="370">
 
 ### Import Libraries:
 
