@@ -8,6 +8,12 @@
 
 <img src="./images/struct_.png" height="570">
 
+The project goal is: predicting catheters and echos in ultrasound image and masking them with appropriete labels.
+
+The diagram bellow shows an initial input and the final prediction and masking.
+
+<img src="./images/task.png" height="370">
+
 ### Import Libraries:
 
 
@@ -117,7 +123,7 @@ def compute_distance(r, c):
 
 ```python
 # Hyper-parameter settings
-TOTAL_EPOCH = 20
+TOTAL_EPOCH = 100
 LEARNING_RATE = 0.001
 MOMENTUM = 0.9
 BATCH_SIZE = 11
@@ -429,7 +435,8 @@ from results_and_analysis.results_visualization import *
 
 visualize_training_loss_accuracy(train_loss, train_accuracy)
 ```
-<img src="./images/output_32_0.png" height="500">
+<img src="./images/epc_acc.png" height="500">
+<img src="./images/epc_lss.png" height="500">
 
 ### Initialize UNET output before loading as Test data:
 
