@@ -6,7 +6,7 @@
 
 ### Project Structure:
 
-<img height="270" width="270" src="images/struct_.PNG" />
+<img src="./images/struct_.png" height="570">
 
 ### Import Libraries:
 
@@ -29,8 +29,7 @@ import cv2
 
 #### Feature: Compute spectral rotation angle given r, c
 
-<img height="400" width="400" src="images/f1.PNG" />
-
+<img src="./images/f1.png" height="370">
 
 ```python
 # Compute spectral rotation angle given r,c
@@ -44,8 +43,7 @@ def spectral_rotation_angle(r, c):
 
 #### Feature: Computing spectral deviation angle
 
-<img height="400" width="400" src="images/f3.PNG" />
-
+<img src="./images/f3.png" height="400">
 
 ```python
 # Computing spectral deviation angle
@@ -92,9 +90,7 @@ def compute_theta(p1, p2, p3):
 ```
 
 #### Feature: Compute sector index
-
-<img height="400" width="400" src="images/f2.PNG" />
-
+<img src="./images/f2.png" height="350">
 
 ```python
 # Compute sector index
@@ -301,8 +297,7 @@ sns.heatmap(data = corr_matrix,cmap='coolwarm', annot=True, linewidths=0.2)
 
 
 
-    
-![png](images/output_20_1.png)
+<img src="./images/output_20_1.png" height="350">
     
 
 
@@ -434,12 +429,7 @@ from results_and_analysis.results_visualization import *
 
 visualize_training_loss_accuracy(train_loss, train_accuracy)
 ```
-
-
-    
-![png](images/output_32_0.png)
-    
-
+<img src="./images/output_32_0.png" height="500">
 
 ### Initialize UNET output before loading as Test data:
 
@@ -557,12 +547,8 @@ from results_and_analysis.results_comparison import *
 pfcnn_confidence_vs_unet_confidence_plotting(pred_accuracy_dict, unet_prediction_accuracies)
 ```
 
-
+<img src="./images/output_46_0.png" height="370">
     
-![png](images/output_46_0.png)
-    
-
-
 ### Combining Output of two Classifier:
 
 
@@ -595,8 +581,7 @@ status = bulk_write(test_files_title, nd_predict)
 ```
 
 ### Predicted output sample
-
-<img height="400" width="400" src="images/out.PNG" />
+<img src="./images/out.png" height="370">
 
 Ref. 
 
