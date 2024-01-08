@@ -4,6 +4,10 @@
 
 <hr>
 
+This project is the implementation of the Master's thesis paper "DISTINGUISHING CATHETERS FROMTHEIR ECHOES IN ULTRASOUND IMAGES".
+
+Thesis paper link: https://github.com/gopalcb/ultrasound-image-prediction/blob/master/Thesis_MSc_Final_Version_ID-200397872.pdf
+
 ### Project Structure:
 
 <img src="./images/struct_.png" height="570">
