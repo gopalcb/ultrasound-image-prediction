@@ -594,6 +594,4 @@ status = bulk_write(test_files_title, nd_predict)
 ### Predicted output sample
 <img src="./images/out.png" height="370">
 
-Ref. 
 
-References can be found in "REFERENCES" section in the "Thesis_MSc_Final_Version_ID-200397872.pdf" file
