@@ -10,7 +10,7 @@ Thesis paper link: https://github.com/gopalcb/ultrasound-image-prediction/blob/m
 
 ### Project Structure:
 
-<img src="./images/struct_.png" height="570">
+<img src="./images/struct_.png" height="570"> 
 
 The project goal is: predicting catheters (C) and echos (E) in ultrasound image and masking them with appropriete labels.
 
