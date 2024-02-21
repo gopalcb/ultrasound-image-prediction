@@ -14,6 +14,7 @@ def select_random_patient(select_patients=100):
 
     train_items = []
     last_index = 0
+    failed_indices = []
 
     for i in range(1, 101):
         patients_index.append(i)
